@@ -1,6 +1,6 @@
 # Tailscale — Remote Access to Proxmox
 
-Installed Tailscale directly on the Proxmox host to enable secure remote access to the server and web UI from anywhere — campus, mobile, or any network.
+Installed Tailscale directly on the Proxmox host to enable secure remote access to the server and web UI from anywhere, any network.
 
 ---
 
