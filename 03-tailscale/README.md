@@ -72,14 +72,10 @@ https://100.118.136.120:8006
 
 The server is now reachable from any network. As long as the device has Tailscale running and is authenticated to the tailnet, it can reach Proxmox.
 
-> **Note:** Tailscale IPs (`100.x.x.x`) are only routable within your personal tailnet. They are not public and cannot be reached by anyone outside your Tailscale account — safe to document.
+> **Note:** Tailscale IPs (`100.x.x.x`) are only routable within your personal tailnet. They are not public and cannot be reached by anyone outside your Tailscale account, thus safe to document.
 
 ---
 
 ## What's Next
 
 Tailscale also supports subnet routing (access entire home network remotely), exit nodes (route all traffic through home), MagicDNS (reach `pve` by name instead of IP), and Tailscale SSH. These may be explored in future updates.
-
----
-
-Server setup complete. Next: [04-windows10-vm](../04-windows10-vm/).
