@@ -116,4 +116,6 @@ From the Surface Pro on the same network, opened a browser and navigated to `htt
 
 ![Proxmox web UI accessible remotely](screenshots/proxmox-live-and-accessible-remotely.png)
 
+---
+
 The Proxmox VE web interface is live. Server management continues in [02-post-install-config](../02-post-install-config/).
