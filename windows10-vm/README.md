@@ -56,7 +56,7 @@ During Windows setup, the installer couldn't detect the 60 GB disk.
 
 3. Started the VM, clicked **Load driver** in Windows setup, and selected the `w10` driver: `Red Hat VirtIO SCSI pass-through controller (D:\amd64\w10\vioscsi.inf)`
 
-![Selecting the W10 VirtIO SCSI driver](screenshots/troubleshoot-fixed-windows-vm-detected-the-hard-drive-choosing-w10-version.png)
+[📎 Selecting the W10 VirtIO SCSI driver](screenshots/troubleshoot-fixed-windows-vm-detected-the-hard-drive-choosing-w10-version.png)
 
 4. The 60 GB disk appeared and installation continued normally
 
