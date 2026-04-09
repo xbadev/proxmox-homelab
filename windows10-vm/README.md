@@ -52,11 +52,11 @@ During Windows setup, the installer couldn't detect the 60 GB disk.
 
 2. Shut down the VM, added the VirtIO ISO as a second CD/DVD drive via Hardware → Add → CD/DVD Drive (set to **IDE** — since the SCSI driver is what's missing, the driver disc itself must use IDE to be readable)
 
-[📎 Adding VirtIO ISO as IDE drive](screenshots/troubleshoot-add-the-virtio-driver-iso-to-win-vm-hardware-as-ide.png)
+![Adding VirtIO ISO as IDE drive](screenshots/troubleshoot-add-the-virtio-driver-iso-to-win-vm-hardware-as-ide.png)
 
 3. Started the VM, clicked **Load driver** in Windows setup, and selected the `w10` driver: `Red Hat VirtIO SCSI pass-through controller (D:\amd64\w10\vioscsi.inf)`
 
-![Selecting the W10 VirtIO SCSI driver](screenshots/troubleshoot-fixed-windows-vm-detected-the-hard-drive-choosing-w10-version-driver.png)
+![Selecting the W10 VirtIO SCSI driver](screenshots/troubleshoot-fixed-windows-vm-detected-the-hard-drive-choosing-w10-version.png)
 
 4. The 60 GB disk appeared and installation continued normally
 
