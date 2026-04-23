@@ -12,6 +12,7 @@ Dedicated Proxmox VE hypervisor running on a repurposed Lenovo IdeaPad S540, ser
 | 02 | [Post-Install Config](02-post-install-config/) | Lid-close/sleep prevention for headless laptop operation, switching from enterprise to community repo |
 | 03 | [Tailscale](03-tailscale/) | Installing Tailscale on the Proxmox host for secure remote access from any network |
 | — | [Windows 10 VM](windows10-vm/) | Creating and configuring a Windows 10 Pro VM with VirtIO drivers |
+| — | [Ubuntu Server VM](ubuntu-server-vm/) | Ubuntu Server 24.04 LTS VM for security labs with VirtIO networking |
 
 ---
 
