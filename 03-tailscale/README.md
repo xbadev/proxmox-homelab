@@ -82,4 +82,4 @@ Tailscale also supports subnet routing (access entire home network remotely), ex
 
 ---
 
-internal network setup in (04-internal-network)[../04-internal-network].
+internal network setup in [04-internal-network](../04-internal-network/).
