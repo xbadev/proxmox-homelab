@@ -29,8 +29,6 @@ By default, all VMs share `vmbr0` which bridges to the physical home network. Th
 
 Navigated to `pve` → System → Network → Create → Linux Bridge.
 
-![Network view before adding vmbr1](screenshots/pve-system-network-detail-before-adding-vmbr1.png)
-
 Configured the bridge with no bridge ports — this is what makes it internal-only:
 
 ![Create Linux Bridge settings](screenshots/create-linux-bridge-final-details-before-clicking-create.png)
