@@ -66,9 +66,9 @@ network:
       dhcp4: true
     ens19:
       dhcp4: false
+      optional: true
       addresses:
         - 10.10.10.20/24
-      optional: true
 ```
 
 `optional: true` on `ens19` prevents a 2-3 minute boot delay that occurs when a NIC has no gateway — without it, the system waits for network availability on that interface before completing boot.
