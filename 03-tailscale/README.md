@@ -79,3 +79,7 @@ The server is now reachable from any network. As long as the device has Tailscal
 ## What's Next
 
 Tailscale also supports subnet routing (access entire home network remotely), exit nodes (route all traffic through home), MagicDNS (reach `pve` by name instead of IP), and Tailscale SSH. These may be explored in future updates.
+
+---
+
+internal network setup in (04-internal-network)[../04-internal-network].
