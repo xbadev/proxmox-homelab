@@ -2,7 +2,6 @@
 
 Dedicated Proxmox VE hypervisor running on a repurposed Lenovo IdeaPad S540, serving as the foundation for VMs, containers, and security lab projects.
 
-![Network Diagram](network-diagram.png)
 
 ## Sections
 
@@ -15,6 +14,7 @@ Dedicated Proxmox VE hypervisor running on a repurposed Lenovo IdeaPad S540, ser
 | — | [Windows 10 VM](windows10-vm/) | Creating and configuring a Windows 10 Pro VM with VirtIO drivers |
 | — | [Ubuntu Server VM](ubuntu-server-vm/) | Ubuntu Server 24.04 LTS VM for security labs with VirtIO networking |
 
+![Network Diagram](network-diagram.png)
 ---
 
 ## What's Next
